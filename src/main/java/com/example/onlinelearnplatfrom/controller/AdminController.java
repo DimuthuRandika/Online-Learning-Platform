@@ -4,7 +4,6 @@ import com.example.onlinelearnplatfrom.dto.AdminDTO;
 import com.example.onlinelearnplatfrom.service.AdminService;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 

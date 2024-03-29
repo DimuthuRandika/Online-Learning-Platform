@@ -22,10 +22,10 @@ public class Course {
     @Column(name = "COURSE_NAME", length = 20, nullable = false)
     private String courseName;
 
-    @Column(name = "COURSE_CONTENT", length = 20)
+    @Column(name = "COURSE_CONTENT", length = 300)
     private String courseContent;
 
-    @Column(name = "COURSE_PRICE", length = 12, unique = true, nullable = false)
+    @Column(name = "COURSE_PRICE", length = 20, unique = true, nullable = false)
     private String coursePrice;
 
     @ManyToMany(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
