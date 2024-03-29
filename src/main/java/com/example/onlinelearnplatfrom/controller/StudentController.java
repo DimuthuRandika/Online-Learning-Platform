@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/api/students", produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(value = "/api/student", produces = MediaType.APPLICATION_JSON_VALUE)
 public class StudentController {
 
     private final StudentService studentService;

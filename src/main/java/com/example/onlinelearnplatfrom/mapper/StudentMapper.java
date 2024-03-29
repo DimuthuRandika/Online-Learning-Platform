@@ -10,6 +10,7 @@ public class StudentMapper {
         studentDTO.setEmail(student.getEmail());
         studentDTO.setFirstName(student.getFirstName());
         studentDTO.setLastName(student.getLastName());
+        studentDTO.setPassword(student.getPassword());
         studentDTO.setMobileNumberPrimary(student.getMobileNumberPrimary());
         // Map courses here if needed
         return studentDTO;
@@ -21,6 +22,7 @@ public class StudentMapper {
         student.setEmail(studentDTO.getEmail());
         student.setFirstName(studentDTO.getFirstName());
         student.setLastName(studentDTO.getLastName());
+        student.setPassword(studentDTO.getPassword());
         student.setMobileNumberPrimary(studentDTO.getMobileNumberPrimary());
         // Map courses here if needed
         return student;
@@ -31,6 +33,7 @@ public class StudentMapper {
         student.setEmail(studentDTO.getEmail());
         student.setFirstName(studentDTO.getFirstName());
         student.setLastName(studentDTO.getLastName());
+        student.setPassword(studentDTO.getPassword());
         student.setMobileNumberPrimary(studentDTO.getMobileNumberPrimary());
         // Update courses here if needed
     }
